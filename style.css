@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-bg-color: #0b3954;
+  --sec-bg-img: #ee4266;
+  --third-bg-color: #355691;
+  --forth-bg-color: #63adf2;
+}
+body {
+  background-color: rgba(218, 216, 216, 0.564);
+}
+.container {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.title {
+  margin-bottom: 8%;
+  margin-top: 8%;
+  text-align: center;
+  color: var(--sec-bg-img);
+}
+.container-item {
+  background-color: var(--main-bg-color);
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.container-item h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.warm-up {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--sec-bg-img);
+  border-radius: 10px;
+  padding: 10px;
+}
+.warm-up li {
+  margin-left: 10%;
+  font-size: 1rem;
+}
+.exercises {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: var(--third-bg-color);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.exercises li {
+  margin-left: 10%;
+}
+.during-day {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: var(--forth-bg-color);
+}
